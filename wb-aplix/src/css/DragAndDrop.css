@@ -1,0 +1,26 @@
+.DivItems {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 0;
+    background: white;
+    border-radius: 10px;
+    
+}
+
+.DivContainer {
+    background: #f5f1f1;
+    padding: 10px;       
+    margin: 10px;       
+    flex: 1;  
+    border-radius: 10px;
+}
+
+
+.DivWrapper {
+    display: flex;            
+    flex-direction: row;   
+}
