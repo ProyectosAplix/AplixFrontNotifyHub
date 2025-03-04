@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Input, Button, Typography } from 'antd';
 import { SendOutlined } from '@ant-design/icons';
 
-
 const { TextArea } = Input;
 const { Title } = Typography;
 
@@ -10,11 +9,7 @@ const WBMessage = () => {
   const [contacts, setContacts] = useState('');
   const [message, setMessage] = useState('');
   const [activeFormat, setActiveFormat] = useState('');
-  sage = () => {
-    const [contacts, setContacts] = useState('');
-    const [message, setMessage] = useState('');
-    const [activeFormat, setActiveFormat] = useState('');
-  
+
   const convertToHTML = (text) => {
     let html = text;
     html = html.replace(/~~(.*?)~~/g, '<s>$1</s>');
